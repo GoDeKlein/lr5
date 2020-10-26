@@ -8,8 +8,8 @@ int main()
     double L;
     cout << "Введіть довжину в сантиметрах" << endl;
     cin >> L;
-    L = (int)L / 100;
-    cout << "Довжина в метрах складає: " << L << endl;
+    L = (int)L / 100000;
+    cout << "Довжина в кілометрах складає: " << L << endl;
     system("pause");
 
 }
